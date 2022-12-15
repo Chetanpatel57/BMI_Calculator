@@ -13,6 +13,7 @@
 		D14E4D8029492CC300F92242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14E4D7E29492CC300F92242 /* Main.storyboard */; };
 		D14E4D8229492CC400F92242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14E4D8129492CC400F92242 /* Assets.xcassets */; };
 		D14E4D8529492CC400F92242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14E4D8329492CC400F92242 /* LaunchScreen.storyboard */; };
+		D1EB2BC1294B98A700FBBB44 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EB2BC0294B98A700FBBB44 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D14E4D8129492CC400F92242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D14E4D8429492CC400F92242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D14E4D8629492CC400F92242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1EB2BC0294B98A700FBBB44 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EB2BC1294B98A700FBBB44 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				D14E4D7729492CC300F92242 /* BMI_Calculator */,
 				D14E4D7629492CC300F92242 /* Products */,
+				D1EB2BBF294B98A700FBBB44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				D14E4D8629492CC400F92242 /* Info.plist */,
 			);
 			path = BMI_Calculator;
+			sourceTree = "<group>";
+		};
+		D1EB2BBF294B98A700FBBB44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1EB2BC0294B98A700FBBB44 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
