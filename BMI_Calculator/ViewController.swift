@@ -77,6 +77,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        
+        if segue.identifier == "redirect" {
+            
+            let displayDate = DateFormatter()
+            displayDate.dateFormat = "HH:mm:ss"
+            
+            let date = Date()
+            
+            displayDate.dateFormat = "dd-MM-yyyy"
+            let dateString = displayDate.string(from: date)
+        }
+    }
 
 
 }
